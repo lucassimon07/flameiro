@@ -1,0 +1,75 @@
+
+body {
+    background-color: #1B3A66;
+
+}
+
+.botao {
+    width: 80%;
+    top: 50%;
+    height: 350px;
+    font-size: 1.5em;
+    margin: auto; 
+    opacity: 1 !important;
+    z-index: 10;
+}
+
+.link a {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.cont{
+
+    width: 100% !important;
+    height: 100vh;
+    padding-top: 100px ;
+    color: white;
+  
+    background-position: center;
+    background-attachment: fixed;;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+    
+} 
+
+.copy {
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+/*resposividade*/
+@media (max-width: 700px) {
+    .botao {
+        width: 80%;
+        top: 50%;
+        height: 200px;
+        font-size: 1.5em;
+        margin: auto; 
+        opacity: 1 !important;
+        z-index: 10;
+    }
+}
+
+.botao {
+    margin-top: 10px;
+}
+.nome{
+    font-size: 50px;
+}
+
+@media (max-width: 575px) {
+    .botao1 {
+        margin-top: 20px;
+    }
+}
+
+

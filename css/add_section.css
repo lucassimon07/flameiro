@@ -1,0 +1,52 @@
+body {
+    background-color: #1B3A66;
+}
+
+form img {
+    max-width: 50%;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+}
+
+.tit {
+    font-size: 3em;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    background-color:#68696A;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #575758 ;
+}
+
+.cont {
+    
+    width: 100% !important;
+    height: 100vh;
+    padding-top: 100px ;
+    color: white;
+    
+  
+    background-position: center;
+    background-attachment: fixed;;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+    
+}
+
+.botao {
+    width: 100%;
+}

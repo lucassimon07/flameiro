@@ -1,0 +1,76 @@
+
+
+body {
+    background-color: #1B3A66;
+
+}
+
+.botao {
+    width: 80%;
+    top: 50%;
+    height: 350px;
+    font-size: 2em;
+    margin: auto; 
+    opacity: 1 !important;
+    z-index: 10;
+}
+
+
+
+
+
+.copy {
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+/*resposividade*/
+@media (max-width: 700px) {
+    .botao {
+        width: 80%;
+        top: 50%;
+        height: 200px;
+        font-size: 1.5em;
+        margin: auto; 
+        opacity: 1 !important;
+        z-index: 10;
+    }
+}
+.sair {
+    width: 100%;
+    text-align: center;
+}
+.botao5 {
+    background-color: red;
+    margin-top: 20px;
+    color: #FFF;
+    font-weight: bold;;
+}
+
+.botao3 {
+    margin-top: 20px;
+}
+
+.botao4 {
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+
+}
+
+.botao4:hover {
+    background-color:rgb(211,0,0);
+    opacity: 0.5;
+}
+
+.nome{
+    font-size: 50px;
+}
+
+@media (max-width: 575px) {
+    .botao1 {
+        margin-top: 20px;
+    }
+}

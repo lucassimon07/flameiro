@@ -1,0 +1,23 @@
+body {
+    background-color: #1B3A66;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+}
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    background-color:#68696A;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #575758 ;
+}
